@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Parameterized Tests">
+        <classes>
+            <class name="Test.Tests">
+                <parameter name="searchText" value="samsung telefon"></parameter>
+                <methods>
+                    <include name="AddToCartFromSearchBox"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+       <!-- Before Running Tests    Steps.openpage();          update steps according to test condition.   -->
+       <!--                         steps.closeTheCookies();                                               -->
+       <!--                         Steps.closepage();                                                     -->

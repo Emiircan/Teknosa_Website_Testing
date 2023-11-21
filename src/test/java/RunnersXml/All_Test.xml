@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Parameterless Tests">
+        <classes>
+            <class name="Test.Tests">
+                <methods>
+                    <exclude name="AddToCartFromSearchBox"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+        <!-- Before Running Tests    Steps.openpage();         update steps according to test condition.    -->
+        <!--                         steps.closeTheCookies();                                               -->
+        <!--                         Steps.closepage();                                                     -->
